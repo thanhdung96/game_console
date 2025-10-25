@@ -1,6 +1,9 @@
+#include "core/base/Item.h"
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  Core::Base::Item object;
+  std::cout << object.getObjectId();
+
+  return 0;
 }
