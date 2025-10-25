@@ -24,3 +24,21 @@ This is a C++ project using CMake and Ninja.
     ```bash
     ./manjaro
     ```
+
+## Clangd Integration
+
+To generate the `compile_commands.json` file for `clangd`, run the following command from within the `build` directory:
+
+```bash
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
+```
+
+You should run this command whenever you add or remove source files to ensure `compile_commands.json` is up to date.
+
+## Code Formatting
+
+This project uses `clang-format` with the default style. To format a file, you can run the following command:
+
+```bash
+find include src -name "*.h" -o -name "*.cpp" | xargs clang-format -i
+```

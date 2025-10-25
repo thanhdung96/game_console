@@ -1,6 +1,9 @@
 #include <iostream>
+#include "core/base/GameObject.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Core::Base::GameObject object;
+    std::cout << object.getObjectId();
+
     return 0;
 }
