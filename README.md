@@ -22,5 +22,21 @@ This is a C++ project using CMake and Ninja.
     ```
 5.  **Run the executable:**
     ```bash
-    ./manjaro
+    ./game_console
     ```
+
+## Source Files Update
+
+To update list of source files, please run command in project root:
+
+```bash
+python script/source_gen.py > src/SOURCES.cmake
+```
+
+## Code Formatting
+
+This project uses `clang-format` with the default style. To format a file, you can run the following command:
+
+```bash
+find include src -name "*.h" -o -name "*.cpp" | xargs clang-format -i
+```
