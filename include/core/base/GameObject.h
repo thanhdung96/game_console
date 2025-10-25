@@ -1,5 +1,4 @@
-#pragma 
-
+#pragma
 #include <string>
 
 namespace Core::Base {

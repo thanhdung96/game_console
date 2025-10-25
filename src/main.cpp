@@ -1,9 +1,9 @@
+#include "core/base/Item.h"
 #include <iostream>
-#include "core/base/GameObject.h"
 
 int main() {
-    Core::Base::GameObject object;
-    std::cout << object.getObjectId();
+  Core::Base::Item object;
+  std::cout << object.getObjectId();
 
-    return 0;
+  return 0;
 }
