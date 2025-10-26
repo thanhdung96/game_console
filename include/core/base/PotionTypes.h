@@ -1,4 +1,9 @@
+#pragma once
+
+#include "core/base/PlayableClasses.h"
 namespace Core::Base {
+using Core::Base::PlayableClasses;
+
 enum class PotionType {
   HEALTH_POTION,
   MANA_POTION,
