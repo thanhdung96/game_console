@@ -72,7 +72,7 @@ std::string UuidV7Generator::generate() {
 }
 
 const string generateUuid() {
-    static UuidV7Generator generator;
+  static UuidV7Generator generator;
 
-    return generator.generate();
+  return generator.generate();
 }

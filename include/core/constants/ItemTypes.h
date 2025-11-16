@@ -1,7 +1,14 @@
 #pragma once
 
 namespace Core::Base {
-enum class ItemTypes { GENERIC, UNIDENTIFIED, WEARABLE, CONSUMABLE, NON_CONSUMABLE, QUEST_ITEM };
+enum class ItemTypes {
+  GENERIC,
+  UNIDENTIFIED,
+  WEARABLE,
+  CONSUMABLE,
+  NON_CONSUMABLE,
+  QUEST_ITEM
+};
 
 enum class ItemWearableTypes {
   HELMET,

@@ -5,9 +5,7 @@ using Core::Base::Item;
 using Core::Base::ItemTypes;
 using std::string_view;
 
-Item::Item() : GameObject() {
-  itemType = ItemTypes::GENERIC;
-}
+Item::Item() : GameObject() { itemType = ItemTypes::GENERIC; }
 
 ItemTypes Item::getItemType() const { return itemType; }
 

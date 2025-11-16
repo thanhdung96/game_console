@@ -3,4 +3,3 @@
 using Core::World::MapArea;
 
 MapArea::MapArea() : GameObject() {}
-

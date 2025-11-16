@@ -6,7 +6,7 @@ using Core::Base::Item;
 
 class NonConsummableItem : public Item {
 public:
-	NonConsummableItem();
+  NonConsummableItem();
 
 private:
 };

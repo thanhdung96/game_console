@@ -1,10 +1,10 @@
 #pragma once
-#include <string>
 #include "utils/UuidV7.h"
+#include <string>
 
 namespace Core::Base {
-	using std::string;
-	const string DEFAULT_OBJECT_NAME = "default name";
+using std::string;
+const string DEFAULT_OBJECT_NAME = "default name";
 
 class GameObject {
 public:
@@ -18,7 +18,7 @@ public:
   void setObjectName(const string &objectName);
 
 private:
-	string objectId;
-	string objectName;
+  string objectId;
+  string objectName;
 };
 } // namespace Core::Base

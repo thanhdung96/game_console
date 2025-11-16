@@ -2,10 +2,10 @@
 #include "core/character/NPC.h"
 
 namespace Core::Character {
-	using Core::Character::NPC;
+using Core::Character::NPC;
 
-	class Villager : public NPC {
-	public:
-		Villager();
-	};
-}
+class Villager : public NPC {
+public:
+  Villager();
+};
+} // namespace Core::Character
