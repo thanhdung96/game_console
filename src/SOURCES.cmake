@@ -3,6 +3,7 @@ set(MYPROJECT_SOURCES
   src/main.cpp
   src/core/base/GameObject.cpp
   src/core/base/Item.cpp
+  src/core/character/Hireling.cpp
   src/core/character/Monster.cpp
   src/core/character/NPC.cpp
   src/core/character/PlayableCharacter.cpp
