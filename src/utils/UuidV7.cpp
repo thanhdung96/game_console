@@ -5,6 +5,8 @@
 #include <random>
 #include <sstream>
 
+using Utils::UuidV7Generator;
+
 UuidV7Generator::UuidV7Generator() : gen(rd()) {}
 
 std::string UuidV7Generator::generate() {

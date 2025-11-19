@@ -5,6 +5,7 @@
 
 using std::string;
 
+namespace Utils {
 class UuidV7Generator {
 public:
   UuidV7Generator();
@@ -14,5 +15,6 @@ private:
   std::random_device rd;
   std::mt19937_64 gen; // Use 64-bit generator for better randomness
 };
+} // namespace Utils
 
 extern const string generateUuid();
